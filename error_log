@@ -1,0 +1,35 @@
+ [15-Jan-2025 02:43:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shekinai/public_html/components/add_cart.php:1) in /home/shekinai/public_html/components/add_cart.php on line 4
+[15-Jan-2025 02:43:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shekinai/public_html/components/add_cart.php:1) in /home/shekinai/public_html/components/add_cart.php on line 4
+[15-Jan-2025 03:05:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shekinai/public_html/components/add_cart.php:1) in /home/shekinai/public_html/components/add_cart.php on line 4
+[15-Jan-2025 03:06:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shekinai/public_html/components/add_cart.php:1) in /home/shekinai/public_html/components/add_cart.php on line 4
+[15-Jan-2025 03:06:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shekinai/public_html/components/add_cart.php:1) in /home/shekinai/public_html/components/add_cart.php on line 4
+[15-Jan-2025 03:06:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/shekinai/public_html/components/add_cart.php:1) in /home/shekinai/public_html/components/add_cart.php on line 4
+[15-Jan-2025 03:18:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/shekinai/public_html/cart.php on line 172
+[15-Jan-2025 03:18:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/shekinai/public_html/cart.php on line 172
+[15-Jan-2025 03:18:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/shekinai/public_html/cart.php on line 172
+[22-Jan-2025 06:46:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'transaction_id' doesn't have a default value in /home/shekinai/public_html/checkout.php:36
+Stack trace:
+#0 /home/shekinai/public_html/checkout.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/shekinai/public_html/checkout.php on line 36
+[22-Jan-2025 06:46:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'transaction_id' doesn't have a default value in /home/shekinai/public_html/checkout.php:36
+Stack trace:
+#0 /home/shekinai/public_html/checkout.php(36): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/shekinai/public_html/checkout.php on line 36
+[22-Jan-2025 06:51:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shekinai/public_html/components/user_header.php on line 4
+[22-Jan-2025 06:52:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'payment_screenshot' doesn't have a default value in /home/shekinai/public_html/checkout.php:46
+Stack trace:
+#0 /home/shekinai/public_html/checkout.php(46): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/shekinai/public_html/checkout.php on line 46
+[22-Jan-2025 06:52:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shekinai/public_html/components/user_header.php on line 4
+[22-Jan-2025 07:29:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shekinai/public_html/components/user_header.php on line 4
+[22-Jan-2025 07:30:01 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'payment_screenshot' doesn't have a default value in /home/shekinai/public_html/checkout.php:46
+Stack trace:
+#0 /home/shekinai/public_html/checkout.php(46): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/shekinai/public_html/checkout.php on line 46
+[22-Jan-2025 07:33:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shekinai/public_html/components/user_header.php on line 4
+[22-Jan-2025 07:42:59 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shekinai/public_html/components/user_header.php on line 4
+[22-Jan-2025 08:36:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shekinai/public_html/components/user_header.php on line 4
