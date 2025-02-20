@@ -182,6 +182,36 @@
                 <p>Only ksh.100</p>
             </div>
         </div>
+
+        <!-- Last Week's Friday Special Section -->
+<section class="last-friday-special">
+    <h2>Last Week's Friday Special</h2>
+    <p>A Look Back at Our Delicious Deals – Did You Miss Out?</p>
+    <div class="special-gallery">
+        <div class="special-item">
+            <img src="uploaded_img/special.png" alt="Special Dish 1">
+        </div>
+        <div class="special-item">
+            <img src="uploaded_img/special2.png" alt="Special Dish 2"> 
+        </div>
+        <div class="special-item">
+            <img src="uploaded_img/special3.png" alt="Special Dish 3"> 
+        </div>
+        <div class="special-item">
+            <img src="uploaded_img/special5.png" alt="Special Dish 3"> 
+        </div>
+        <div class="special-item">
+            <img src="uploaded_img/special6.png" alt="Special Dish 3"> 
+        </div>
+        <div class="special-item">
+            <img src="uploaded_img/special4.png" alt="Special Dish 3"> 
+        </div>
+        <div class="special-item">
+            <img src="uploaded_img/special9.png" alt="Special Dish 3"> 
+        </div>
+    </div>
+</section>
+
     </section>
 
     <!-- Catering Section -->

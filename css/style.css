@@ -802,6 +802,75 @@ header {
    transform: scale(1.05);
 }
 
+.last-friday-special {
+   padding: 60px 20px;
+   background: linear-gradient(135deg, #fffbf5, #ffede1);
+   text-align: center;
+   position: relative;
+   overflow: hidden;
+}
+
+.last-friday-special h2 {
+   color: #b91c1c;
+   font-size: 2.4rem;
+   margin-bottom: 1rem;
+}
+
+.last-friday-special p {
+   color: #4a4a4a;
+   font-size: 1.2rem;
+   margin-bottom: 2.5rem;
+}
+
+.special-gallery {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 20px;
+   max-width: 1200px;
+   margin: 0 auto;
+}
+
+.special-item {
+   background: white;
+   border-radius: 15px;
+   overflow: hidden;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+   transform: perspective(1000px) rotateX(10deg);
+   transition: transform 0.3s ease-in-out;
+   padding: 15px;
+}
+
+.special-item:hover {
+   transform: perspective(1000px) rotateX(0deg) scale(1.05);
+}
+
+.special-item img {
+   width: 100%;
+   height: 250px;
+   object-fit: cover;
+   border-radius: 12px;
+   transition: transform 0.3s ease;
+}
+
+.special-item:hover img {
+   transform: scale(1.05);
+}
+
+.special-item h3 {
+   margin: 15px 0;
+   font-size: 1.3rem;
+   color: #b91c1c;
+   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+   .last-friday-special {
+       padding: 40px 15px;
+   }
+   .special-gallery {
+       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   }
+}
 
 /* Testimonials Section */
 .testimonials {
