@@ -22,6 +22,15 @@ $previous_page = $_SERVER['HTTP_REFERER'] ?? 'index.php'; // Default to index.ph
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0M7ZSJ88KT"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0M7ZSJ88KT');
+</script>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
