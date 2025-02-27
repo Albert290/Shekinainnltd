@@ -893,7 +893,7 @@ header {
    }
 
    .special-item img {
-       height: 160px;
+       height: 100%;
    }
 }
 
@@ -919,21 +919,23 @@ header {
 
 .testimonial-container {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible columns */
    gap: 30px;
    max-width: 1200px;
    margin: 0 auto;
+   padding: 10px;
 }
 
 .testimonial {
    background: rgba(255, 255, 255, 0.95);
-   padding: 40px;
-   border-radius: 20px;
+   padding: 30px;
+   border-radius: 15px;
    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
    transition: transform 0.3s ease, box-shadow 0.3s ease;
    position: relative;
    border: 1px solid rgba(255,255,255,0.3);
    backdrop-filter: blur(10px);
+   text-align: center;
 }
 
 .testimonial:hover {
@@ -945,9 +947,9 @@ header {
    font-size: 1.1rem;
    line-height: 1.8;
    color: #4a4a4a;
-   margin-bottom: 25px;
+   margin-bottom: 15px;
    position: relative;
-   padding-left: 30px;
+   padding-left: 25px;
 }
 
 .testimonial p::before {
@@ -962,11 +964,8 @@ header {
 
 .testimonial h4 {
    color: #ff6b00;
-   font-size: 1.1rem;
-   font-weight: 700;
-   margin: 0;
-   padding-left: 30px;
-   position: relative;
+   font-size: 2rem; 
+   margin-bottom: 20px;  
 }
 
 .testimonial h4::before {
@@ -1123,10 +1122,57 @@ footer::after {
        text-align: center;
    }
 
-   .box-container, .offer-container, .testimonial-container {
+   .box-container, .offer-container {
        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
    }
 }
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+   .testimonials h2 {
+       font-size: 1.8rem; /* Reduce heading size */
+   }
+   .testimonial p {
+       font-size: 1rem;
+   }
+   .testimonial h4 {
+       font-size: 0.95rem;
+   }
+}
+
+@media (max-width: 768px) {
+   .testimonial-container {
+       display: flex;
+       flex-direction: column; /* Stack testimonials vertically */
+       align-items: center;
+   }
+   .testimonials h2 {
+       font-size: 1.6rem;
+   }
+   .testimonial {
+       max-width: 90%;
+       padding: 25px;
+   }
+}
+
+@media (max-width: 480px) {
+   .testimonials {
+       padding: 30px 10px;
+   }
+   .testimonials h2 {
+       font-size: 1.4rem;
+   }
+   .testimonial {
+       padding: 20px;
+   }
+   .testimonial p {
+       font-size: 0.95rem;
+   }
+   .testimonial h4 {
+       font-size: 0.9rem;
+   }
+}
+
 
 .products {
    padding: 20px;

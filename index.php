@@ -231,11 +231,11 @@
         <h2>What Our Customers Say</h2>
         <div class="testimonial-container">
             <div class="testimonial">
-                <p>"The food at Shekina Inn is absolutely delicious! I highly recommend their grilled chicken and cold beverages."</p>
+                <p>" I highly recommend their grilled chicken and cold beverages."</p>
                 <h4>- John Mutembei</h4>
             </div>
             <div class="testimonial">
-                <p>"Great service and amazing flavors. Their catering made our event a huge success!"</p>
+                <p>" Their catering made our event a huge success!"</p>
                 <h4>- Jane Kanini</h4>
             </div>
             <div class="testimonial">
